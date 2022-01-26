@@ -6,8 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		     <version> 2.3.1.RELEASE </version>
-
+		<version>2.5.5</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
@@ -37,11 +36,11 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/net.authorize/anet-java-sdk -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>net.authorize</groupId>
 			<artifactId>anet-java-sdk</artifactId>
 			<version>2.0.3</version>
-		</dependency>
+		</dependency> -->
 
 	</dependencies>
 
@@ -50,7 +49,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				
 			</plugin>
 		</plugins>
 	</build>
