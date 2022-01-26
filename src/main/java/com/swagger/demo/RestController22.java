@@ -17,8 +17,9 @@ public class RestController22 {
 
 	@PostMapping("/login")
 	public ResponseEntity<?> login(@RequestBody LoginRequest request) {
-		
-		if(request.getUsername() != null && request.getPassword()!=null) {
+		String username = 'admin';
+		String password = 'admin';
+		if(request.getUsername() == username && request.getPassword() == password) {
 			Map<String,String> map =new HashMap<>();
 			map.put("status", "SUCCESS");
 			map.put("statusCode", "200");
